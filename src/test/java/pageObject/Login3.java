@@ -17,7 +17,7 @@ public class Login3 {
 		
 		
 		//Scenario 3: after registration signing the account
-		
+		System.out.println("hello");
 		Thread.sleep(2000);
 		
 		driver.findElement(By.xpath("//input[@id='email']")).sendKeys(email);
